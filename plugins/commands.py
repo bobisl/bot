@@ -67,10 +67,10 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🤖  Use Our Bots 🤖', https://t.me/bots_showcase')
+                        InlineKeyboardButton('🤖  Use Our Bots 🤖', https://t.me/movie_link_lk')
                     ],
                     [
-                        InlineKeyboardButton('🔍 Series Sequest Group 🔎', https://t.me/series_showcase')
+                        InlineKeyboardButton('🔍 Series Sequest Group 🔎', https://t.me/movie_link_lk')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -103,7 +103,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Bot Updates", url="https://t.me/Mo_Tech_YT")
+                        InlineKeyboardButton("Bot Updates", url="https://t.me/+yWF83KdmNv04ZDA1")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
@@ -195,7 +195,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/Mo_Tech_YT'),
+            InlineKeyboardButton('Update Channel', url='https://t.me/+yWF83KdmNv04ZDA1'),
             InlineKeyboardButton('Video', url=f'{TUTORIAL}')
         ]
         ]
